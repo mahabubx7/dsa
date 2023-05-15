@@ -1,7 +1,6 @@
 /**-------------------------------------------*
  * @TypeScript
  * @ArrayList Source Code
- * A sequence of similar data type collections.
  *--------------------------------------------*/
 
 export default class ArrayList<Type> {
@@ -32,7 +31,7 @@ export default class ArrayList<Type> {
     return this.list.pop();
   }
 
-  remove(index?: number, count: number = 1) {
+  remove(index?: number, count: number = 1): void {
     if (index !== 0 && !index) this.pop();
     else {
       this.list.splice(index, count);
