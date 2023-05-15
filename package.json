@@ -16,7 +16,7 @@
     "node": ">=16.x"
   },
   "lint-staged": {
-    "**/*.{js, ts}": " yarn eslint .",
+    "**/*.{js, ts}": "yarn eslint .",
     "**/*.{js, ts, json}": "yarn prettier ."
   },
   "bugs": {
