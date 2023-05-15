@@ -1,6 +1,5 @@
 /**-------------------------------------------*
  * @ArrayList Unit Tests
- * A sequence of similar data type collections.
  *--------------------------------------------*/
 
 import ArrayList from './ArrayList.js';

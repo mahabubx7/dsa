@@ -1,6 +1,5 @@
 /**-------------------------------------------*
  * @ArrayList Source Code
- * A sequence of similar data type collections.
  *--------------------------------------------*/
 
 export default class ArrayList {
