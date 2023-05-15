@@ -1,0 +1,9 @@
+node_modules/*
+.gitignore
+.husky
+.vscode
+tsconfig.json
+*-lock.json
+*.lock
+*.md
+LICENSE
