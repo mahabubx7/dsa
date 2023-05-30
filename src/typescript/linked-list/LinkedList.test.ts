@@ -1,4 +1,5 @@
 /**-------------------------------------------*
+ * @TypeScript
  * @LinkedList Unit Tests
  * @type Singly LinkedList
  *--------------------------------------------*/
@@ -11,7 +12,7 @@ describe('Tests for LinkedList', () => {
   });
 
   it('should be able to add nodes in linked-list', () => {
-    const ll = new LinkedList();
+    const ll = new LinkedList<number>();
     ll.add(7); // first
     expect(ll.getSize()).toStrictEqual(1);
     ll.add(10); // second
@@ -22,7 +23,7 @@ describe('Tests for LinkedList', () => {
   });
 
   it('should be able to remove nodes from linked-list', () => {
-    const ll = new LinkedList();
+    const ll = new LinkedList<number>();
     ll.add(7);
     ll.add(5);
     ll.add(0);
